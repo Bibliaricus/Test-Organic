@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="stylesheet" href="css/normalize.css">  
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">  
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Organic food. Info 100%!</title>
+</head>
+<body>
+  <div class="white-bg">
+    <header class="container">
+      <div class="header__top row">
+        <div class="header-top__left col-12 col-sm-4 col-lg-12 col-xl-8">
+          <a href="#mobile-menu" class="mobile-menu-humburger">
+            <span class="mobile-menu-humburger__part"></span>
+            <span class="mobile-menu-humburger__part"></span>
+            <span class="mobile-menu-humburger__part"></span>
+          </a>
+          <ul class="header-top__language-currency">
+            <li class="header-top__language-list">
+              <a class="header-top__language-item lang-eng icon-font-down-arrow header-top__drop-down-link" href="#">English</a>
+              <ul class="header-top__drop-down-list">
+                <li><a href="https://webformyself.com/psevdoklass-focus-within/" class="header-top__language-item lang-fr">France</a></li>
+                <li><a href="https://www.google.com/search?q=focus-within&oq=%3Afocus-wi&aqs=chrome.1.69i57j0l5.7142j0j7&sourceid=chrome&ie=UTF-8" class="header-top__language-item lang-ger">Germany</a></li>
+                <li><a href="https://webformyself.com/psevdoklass-focus-within/" class="header-top__language-item lang-ital">Italian</a></li>
+                <li><a href="#" class="header-top__language-item lang-ua">Ukraine</a></li>
+              </ul>
+            </li>
+            <li class="header-top__currency-list">
+              <a href="#" class="header-top__currency-item icon-font-down-arrow header-top__drop-down-link">Usd / $</a>
+              <ul class="header-top__drop-down-list">
+                <li><a class="header-top__currency-item" href="#">Eur / €</a></li>
+                <li><a class="header-top__currency-item" href="#">Gbp / £</a></li>
+                <li><a class="header-top__currency-item" href="#">Chf / ₣</a></li>
+                <li><a class="header-top__currency-item" href="#">Jpy / ¥</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="header-top__number-list icon-font-phone-call">
+            <a href="tel:+13107778808" class="header-top__number-item number">+1 (310) 777 8808,</a>
+            <a href="tel:+13108887708" class="header-top__number-item number">+1 (310) 888 7708</a>
+          </div>        
+          <a href="#" class="header-topl__adress adress icon-font-placeholder">East 21st Street / 30, New York NY10 UAS</a >
+        </div>
+        <div class="header-top__links col-12 col-sm-8 col-lg-12 col-xl-4">
+          <a href="#" class="header-top__link-item">Delivery</a>
+          <a href="#" class="header-top__link-item">FAQ</a>
+          <a href="#" class="header-top__link-item">Returns</a>
+          <a href="#" class="header-top__link-item icon-font-email">Newsletter</a>
+        </div>
+      </div>
+      <div class="header__middle row">
+        <form action="#" method="GET" class="header-middle__search-form col-12 col-sm-6 col-md-4">
+          <input class="header-middle__search-input" type="search" name="header-search" placeholder="Search for product...">
+          <button class="header-middle__search-button icon-font-search" type="submit"></button>
+        </form>
+        <a class="header-middle__logo logo-in-main col-6 col-md-2" href="#" tabindex="-1"> <!-- Tabindex -1 for disebling logo in main page -->
+          <img src="img/logo.png" alt="Site logo in header">
+        </a>
+        <div class="header-middle__user-links col-6 col-md-4">
+          <div class="user-links_log-in-form" tabindex="0">
+            <span class="user-links__link">Log in</span>          
+            <span class="user-links__separator">/</span>
+            <span class="user-links__link ">Sign up</span>
+          </div>
+          <form action="#" method="POST" class="login-popup">
+            <label for="login">Username or email address<span class="required">*</span></label>
+            <input type="text" name="login-email" id="login" class="login-popup__text-input">
+            <label for="password">Password<span class="required">*</span></label>
+            <input type="password" name="password-field" id="password" class="login-popup__text-input">
+            <div class="checkbox-field">  
+              <input type="checkbox" name="remember-me" id="remember-input">
+              <label for="remember-input">Remember Me</label>
+              <a href="#" class="login-popup__link">Lost password?</a>
+            </div>  
+            <button class="login-popup__button btn">Log in</button>
+            <span>New client?
+              <a href="#" class="login-popup__link">Register now!</a>
+            </span>
+          </form>
+          <a href="#" class="user-links__icon icon-font-heart vish-list-popup"></a>
+          <div class="vish-list">
+            <div class="vish-list__header">
+              <span class="vish-list__title">Wishlist</span>
+            </div>
+            <div class="vish-list__item-list">
+              <div class="vish-list__item">
+                <img src="img/new_product-11.jpg" alt="Description of product" class="vish-list__item-image" width="50" height="50">
+                <div class="vish-list__item-description">
+                  <a href="#" class="vish-list__item-name">Pure cosmetic</a>
+                  <span class="vish-list__item-delete-btn">x</span>
+                </div>
+              </div>              
+            </div>
+            <div class="vish-list__footer">              
+              <a href="#" class="vish-list__vish-list-button vish-list__btn">Viev wishlist</a>
+            </div>
+          </div>
+          <a href="#" class="user-links__icon icon-font-shopping-bag shoping-cart-popup"></a>
+          <div class="shoping-cart">
+            <div class="shopping-cart__item-list">
+              <div class="shopping-cart__item">
+                <img src="img/new_product-9.jpg" alt="Description of product" class="shopping-cart__item-image" width="50" height="50">
+                <div class="shopping-cart__item-description">
+                  <a href="#" class="shopping-cart__item-name">Pure cosmetic</a>
+                  <span class="shopping-cart__item-quantity">1</span>
+                  <span class="shopping-cart__item-price">$199.00</span>
+                  <span class="shopping-cart__item-delete-btn">x</span>
+                </div>
+              </div>
+              <div class="shopping-cart__item">
+                <img src="img/new_product-8.jpg" alt="Description of product" class="shopping-cart__item-image" width="50" height="50">
+                <div class="shopping-cart__item-description">
+                  <a href="#" class="shopping-cart__item-name">Pure cosmetic</a>
+                  <span class="shopping-cart__item-quantity">1</span>
+                  <span class="shopping-cart__item-price">$199.00</span>
+                  <span class="shopping-cart__item-delete-btn">x</span>
+                </div>
+              </div>
+              <div class="shopping-cart__item">
+                <img src="img/new_product-8.jpg" alt="Description of product" class="shopping-cart__item-image" width="50" height="50">
+                <div class="shopping-cart__item-description">
+                  <a href="#" class="shopping-cart__item-name">Pure cosmetic</a>
+                  <span class="shopping-cart__item-quantity">1</span>
+                  <span class="shopping-cart__item-price">$199.00</span>
+                  <span class="shopping-cart__item-delete-btn">x</span>
+                </div>
+              </div>
+            </div>
+            <div class="shopping-cart__footer">
+              <div class="shopping-cart__total-price">
+                <span class="shopping-cart__total-quantity">Shoping cart (<span class="shopping-cart__total-quantity-number">3</span>)</span>
+                <span class="shopping-cart__subtotal-price">Subtotal: £<span class="shopping-cart__subtotal-price-number">523.00</span></span>
+              </div>
+              <a href="#" class="shopping-cart__checkout-button shopping-cart__btn">Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="header__bottom">
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item"><a href="#" class="main-navigation__link">About us</a></li>
+          <li class="main-navigation__item"><a href="#" class="main-navigation__link hot-label">Shop</a></li>
+          <li class="main-navigation__item"><a href="#" class="main-navigation__link">Blog</a></li>
+          <li class="main-navigation__item"><a href="#" class="main-navigation__link">Contact us</a></li>
+          <li class="main-navigation__item"><a href="#" class="main-navigation__link">FAQ</a></li>
+          <li class="main-navigation__item"><a href="#" class="main-navigation__link">Returns</a></li>
+          <li class="main-navigation__item"><a href="#" class="main-navigation__link">Help</a></li>
+          <li class="main-navigation__item"><a href="#" class="main-navigation__link">Privacy & cookies</a></li>
+        </ul>
+        <ul class="main-navigation__list--mobile mfp-hide" id="mobile-menu">
+          <form action="#" method="GET" class="header-middle__search-form header-middle__search-form--mobile">
+            <input class="header-middle__search-input" type="search" name="header-search" placeholder="Search for product...">
+            <button class="header-middle__search-button icon-font-search" type="submit"></button>
+          </form>
+          <li class="main-navigation__item--mobile"><a href="#" class="main-navigation__link--mobile">About us</a></li>
+          <li class="main-navigation__item--mobile"><a href="#" class="main-navigation__link--mobile hot-label">Shop</a></li>
+          <li class="main-navigation__item--mobile"><a href="#" class="main-navigation__link--mobile">Blog</a></li>
+          <li class="main-navigation__item--mobile"><a href="#" class="main-navigation__link--mobile">Contact us</a></li>
+          <li class="main-navigation__item--mobile"><a href="#" class="main-navigation__link--mobile">FAQ</a></li>
+          <li class="main-navigation__item--mobile"><a href="#" class="main-navigation__link--mobile">Returns</a></li>
+          <li class="main-navigation__item--mobile"><a href="#" class="main-navigation__link--mobile">Help</a></li>
+          <li class="main-navigation__item--mobile"><a href="#" class="main-navigation__link--mobile">Privacy & cookies</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="main-banner-slider" tabindex="0">
+        <div class="main-banner-slide">
+          <div class="main-banner-text">
+            <div class="main-banner-text__title">Organic store</div>
+            <div class="main-banner-text__description">Organic store, organic products grown with love!</div>
+            <a class="main-banner-text__button btn" role="button">See details</a>
+          </div>
+        </div>
+        <div class="main-banner-slide">
+          <div class="main-banner-text">
+            <div class="main-banner-text__title">Organic store</div>
+            <div class="main-banner-text__description section-description">Organic store, organic products grown with love!</div>
+            <div class="main-banner-text__button btn">See details</div>
+          </div>
+        </div>
+        <div class="main-banner-slide">
+          <div class="main-banner-text">
+            <div class="main-banner-text__title">Organic store</div>
+            <div class="main-banner-text__description section-description">Organic store, organic products grown with love!</div>
+            <div class="main-banner-text__button btn">See details</div>
+          </div>
+        </div>
+      </div>
+      <div class="sales row">
+        <a href="#" class="sales__item col-12 col-sm-8 col-md-4">
+          <div class="sales-item__img-cont">
+            <img src="img/sales_image-1.jpg" alt="Sale in this season" class="sales-item__img">
+          </div>
+          <div class="sales-item__text">
+            <span class="sales-item__title">20% off on</span>
+            <span class="sales-item__caption">herbal tea</span>
+          </div>
+        </a>
+        <a href="#" class="sales__item col-12 col-sm-8 col-md-4">
+          <div class="sales-item__img-cont">
+            <img src="img/sales_image-2.jpg" alt="Sale in this season" class="sales-item__img">
+          </div>
+          <div class="sales-item__text">
+            <span class="sales-item__caption">Seasonal Sale</span>
+            <span class="sales-item__title">up to 50% off</span>
+          </div>
+        </a>
+        <a href="#" class="sales__item col-12 col-sm-8 col-md-4">
+          <div class="sales-item__img-cont">
+            <img src="img/sales_image-3.jpg" alt="Sale in this season" class="sales-item__img">
+          </div>
+          <div class="sales-item__text">
+            <span class="sales-item__title">30% off on muesli</span>
+            <span class="sales-item__caption">limited time</span>
+          </div>
+        </a>
+      </div>
+
+
+      <div class="q-view-popup mfp-hide row mfp-with-anim" id="q-view-popup">
+        <div class="q-view-popup__image-slider col-sm-6">
+          <div class="q-view-popup__slide">
+            <img src="img/new_product-9.jpg" alt="Name or description of product in popup">
+          </div>
+          <div class="q-view-popup__slide">
+            <img src="img/hot_products-3.jpg" alt="Name of description of product in popup">
+          </div>
+        </div>
+        <div class="q-view-popup__information col-sm-6">
+          <h3 class="q-view-popup__title"><a href="#">Product name</a></h3>
+          <span class="q-view-popup__price">$50.00</span>
+          <div class="q-view-popup__rating item-rating">
+            <span class="icon-font-star-solid-1"></span>
+            <span class="icon-font-star-solid-1"></span>
+            <span class="icon-font-star-solid-1"></span>
+            <span class="icon-font-star-solid-1"></span>
+            <span class="icon-font-star-regular-1"></span>
+          </div>
+          <div class="q-view-popup__quantity">
+            <span class="quantity__minus">-</span>
+            <input type="number" class="quantity__number-input" min="1" step="1" value="1">
+            <span class="quantity__plus">+</span>
+            <button class="q-view-popup__btn btn">Add to cart</button>
+          </div>
+          <div class="q-view-popup__category">Category:<a href="#" class="q-view-popup__link">Some category</a></div>
+          <div class="q-view-popup__tags">Tags:
+            <a href="#" class="q-view-popup__link">eco</a>,
+            <a href="#" class="q-view-popup__link">health</a>
+          </div>
+          <a href="#" class="q-view-popup__full-info-link">Show full details</a>
+        </div>
+      </div>
+
+
+      <section class="new-products">
+        <h2 class="section-title">New Products</h2>
+        <span class="section-description">Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</span>
+        <div class="item-list row">
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-1.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-2.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-3.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-4.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-5.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-6.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+        </div>
+        <div class="item-list row">
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-7.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-8.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-9.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-10.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-11.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+          <div class="item-self col-6 col-md-4 col-xl-2" tabindex="0">
+            <a class="item-link-container" href="#" title="Press enter to follow the link">
+              <img src="img/new_product-12.jpg" alt="Description of new product" class="item-img">
+            </a>
+            <span class="icon-font-heart" tabindex="0" title="Add to wishlist"></span>
+            <a href="#q-view-popup" class="btn quick-view-btn icon-font-eye-1" role="button" data-effect="mfp-move-horizontal">quick view</a>
+            <a href="#" class="item-title-link-wrap">
+              <span class="item-title">Lorem ipsum</span>
+            </a>
+            <div class="item-rating">
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-solid-1"></span>
+              <span class="icon-font-star-regular-1"></span>
+            </div>
+            <span class="item-price">$299,99</span>
+            <button type="button" class="item-button btn icon-font-shopping-cart">Add to cart</button>
+          </div>
+        </div>
+      </section>
+      <section class="hot-products">
+        <h2 class="section-title">Hot Products</h2>
+        <span class="section-description">Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</span>
+          <div class="hot-products__slider">
+            <div class="hot-products__item">
+              <a href="#" class="hot-products__link-container">
+                <span class="sale-label">-50%</span>
+                <img src="img/hot_products-1.jpg" alt="Description of one of hot product" class="hot-products__img">
+              </a>
+              <div class="hot-products__text col-sm-6">
+                <a href="#" class="item-title">Semolina croup</a>
+                <div class="item-rating">
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-regular-1"></span>
+                </div>
+                <div class="item-price-cont">
+                  <span class="item-price item-price--old">$1290.00</span>
+                  <span class="item-price item-price--new">$645.00</span>
+                </div>
+                <div class="hot-products__progress">
+                  <span class="hot-products__progress-caption">Available:<span class="hot-products__progress-number">88</span></span>                  
+                  <span class="hot-products__progress-caption">Already sold:<span class="hot-products__progress-number">157</span></span>                  
+                </div>
+                <div class="hot-products__progress-bar">
+                  <span class="hot-products__progress-bar-fill"></span>
+                </div>
+                <div class="hot-products__counter">
+                  <script src="//megatimer.ru/get/6e3911dc91dd0e7dfdf12cf4561d3f5a.js"></script>
+                </div>
+                <button class="item-button btn hot-products__button icon-font-shopping-cart" type="button">Add to cart</button>
+              </div>
+            </div>
+            <div class="hot-products__item">
+              <a href="#" class="hot-products__link-container">
+                <span class="sale-label">-50%</span>
+                <img src="img/hot_products-2.jpg" alt="Description of one of hot product" class="hot-products__img">
+              </a>
+              <div class="hot-products__text col-sm-6">
+                <a href="#" class="item-title">Cumin</a>
+                <div class="item-rating">
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-regular-1"></span>
+                </div>
+                <div class="item-price-cont">
+                  <span class="item-price item-price--old">$1290.00</span>
+                  <span class="item-price item-price--new">$645.00</span>
+                </div>
+                <div class="hot-products__progress">
+                  <span class="hot-products__progress-caption">Available:<span class="hot-products__progress-number">88</span></span>                  
+                  <span class="hot-products__progress-caption">Already sold:<span class="hot-products__progress-number">157</span></span>                  
+                </div>
+                <div class="hot-products__progress-bar">
+                  <span class="hot-products__progress-bar-fill"></span>
+                </div>
+                <div class="hot-products__counter">
+                  <script src="//megatimer.ru/get/6e3911dc91dd0e7dfdf12cf4561d3f5a.js"></script>
+                </div>
+                <button class="item-button btn hot-products__button icon-font-shopping-cart" type="button">Add to cart</button>
+              </div>
+            </div>
+            <div class="hot-products__item">
+              <a href="#" class="hot-products__link-container">
+                <span class="sale-label">-50%</span>
+                <img src="img/hot_products-3.jpg" alt="Description of one of hot product" class="hot-products__img">
+              </a>
+              <div class="hot-products__text col-sm-6">
+                <a href="#" class="item-title">Brown sugar</a>
+                <div class="item-rating">
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-regular-1"></span>
+                </div>
+                <div class="item-price-cont">
+                  <span class="item-price item-price--old">$1290.00</span>
+                  <span class="item-price item-price--new">$645.00</span>
+                </div>
+                <div class="hot-products__progress">
+                  <span class="hot-products__progress-caption">Available:<span class="hot-products__progress-number">88</span></span>                  
+                  <span class="hot-products__progress-caption">Already sold:<span class="hot-products__progress-number">157</span></span>                  
+                </div>
+                <div class="hot-products__progress-bar">
+                  <span class="hot-products__progress-bar-fill"></span>
+                </div>
+                <div class="hot-products__counter">
+                  <script src="//megatimer.ru/get/6e3911dc91dd0e7dfdf12cf4561d3f5a.js"></script>
+                </div>
+                <button class="item-button btn hot-products__button icon-font-shopping-cart" type="button">Add to cart</button>
+              </div>
+            </div>
+            <div class="hot-products__item">
+              <a href="#" class="hot-products__link-container">
+                <span class="sale-label">-50%</span>
+                <img src="img/hot_products-4.jpg" alt="Description of one of hot product" class="hot-products__img">
+              </a>
+              <div class="hot-products__text col-sm-6">
+                <a href="#" class="item-title">Healthy bread</a>
+                <div class="item-rating">
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-solid-1"></span>
+                  <span class="icon-font-star-regular-1"></span>
+                </div>
+                <div class="item-price-cont">
+                  <span class="item-price item-price--old">$1290.00</span>
+                  <span class="item-price item-price--new">$645.00</span>
+                </div>
+                <div class="hot-products__progress">
+                  <span class="hot-products__progress-caption">Available:<span class="hot-products__progress-number">88</span></span>                  
+                  <span class="hot-products__progress-caption">Already sold:<span class="hot-products__progress-number">157</span></span>                  
+                </div>
+                <div class="hot-products__progress-bar">
+                  <span class="hot-products__progress-bar-fill"></span>
+                </div>
+                <div class="hot-products__counter">
+                  <script src="//megatimer.ru/get/6e3911dc91dd0e7dfdf12cf4561d3f5a.js"></script>
+                </div>
+                <button class="item-button btn hot-products__button icon-font-shopping-cart" type="button">Add to cart</button>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="our-stores">
+        <h2 class="section-title">Our stores</h2>
+        <span class="section-description">Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</span>
+        <div class="row">
+          <div class="our-stores__column col-sm-10 col-md-4">
+            <div class="our-stores__mask-cont" tabindex="0">
+              <a href="#" class="our-stores__link-container" tabindex="-1">
+                <img src="img/stores-1.jpg" alt="Images who symbolize our store" class="our-stores__img">
+              </a>
+              <div class="our-stores__mask">
+                <a href="#" class="our-stores__mask-link">click to read more</a>
+              </div>
+            </div>
+            <a href="#" class="icon-font-placeholder our-stores__string">480 Penn Street Windermere, FL 34786</a>
+            <span class="icon-font-calendar our-stores__string">Mon - Sa 7am - 6pm</span>
+            <a href="mailto:organic02@site.com" class="email icon-font-email our-stores__string">Email: organic02@site.com</a>
+            <a href="tel:+12096617275" class="number icon-font-phone-call our-stores__string">Phone: +1 209-661-7275</a>
+          </div>
+          <div class="our-stores__column col-sm-10 col-md-4">
+            <div class="our-stores__mask-cont" tabindex="0">
+              <a href="#" class="our-stores__link-container" tabindex="-1">
+                <img src="img/stores-2.jpg" alt="Images who symbolize our store" class="our-stores__img">
+              </a>
+              <div class="our-stores__mask">
+                <a href="#" class="our-stores__mask-link">click to read more</a>
+              </div>
+            </div>
+            <a href="#" class="icon-font-placeholder our-stores__string">531 Morris Court Lemont, IL 60439</a>
+            <span class="icon-font-calendar our-stores__string">Mon - Sa 7am - 6pm</span>
+            <a href="mailto:ecofood@site.com" class="email icon-font-email our-stores__string">Email: ecofood@site.com</a>
+            <a href="tel:+12096617070" class="number icon-font-phone-call our-stores__string">Phone: +1 209-661-7070</a>
+          </div>
+          <div class="our-stores__column col-sm-10 col-md-4">
+            <div class="our-stores__mask-cont" tabindex="0">
+              <a href="#" class="our-stores__link-container" tabindex="-1">
+                <img src="img/stores-3.jpg" alt="Images who symbolize our store" class="our-stores__img">
+              </a>
+              <div class="our-stores__mask">
+                <a href="#" class="our-stores__mask-link">click to read more</a>
+              </div>
+            </div>
+            <a href="#" class="icon-font-placeholder our-stores__string">378 Cedarwood Drive Summerfield, FL 34491</a>
+            <span class="icon-font-calendar our-stores__string">Mon - Sa 7am - 6pm</span>
+            <a href="mailto:vegaorganic@site.com" class="email icon-font-email our-stores__string">Email: vegaorganic@site.com</a>
+            <a href="tel:+12095466942" class="number icon-font-phone-call our-stores__string">Phone: +1 209-546-6942</a>
+          </div>
+        </div>
+      </section>
+      <div class="features row">
+        <div class="features__item col-6 col-xl-3">
+          <span class="features__title">Convenient delivery</span>
+          <p class="features__text">Lorem ipsum dolor sit am et, consectetur adipisicing elit, sed do eiusmod</p>
+        </div>
+        <div class="features__item col-6 col-xl-3">
+          <span class="features__title">Quality assurance</span>
+          <p class="features__text">Ipsum dolor sit am et, consectetur adipisicing elit, sed dunt ut labore</p>
+        </div>
+        <div class="features__item col-6 col-xl-3">
+          <span class="features__title">Variety of choice</span>
+          <p class="features__text">Magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        </div>
+        <div class="features__item col-6 col-xl-3">
+          <span class="features__title">Purchase security</span>
+          <p class="features__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+        </div>
+      </div>      
+    </main>
+    <footer class="container">
+      <a href="#" class="header-middle__logo logo-in-main col-sm-2" tabindex="-1"> <!-- Tabindex -1 for disebling logo in main page -->
+        <img src="img/logo.png" alt="Site logo in footer">
+      </a>
+      <ul class="footer-navigation">
+        <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">About us</a></li>
+        <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Shop</a></li>
+        <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Blog</a></li>
+        <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Contact us</a></li>
+        <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">FAQ</a></li>
+        <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Returns</a></li>
+        <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Help</a></li>
+        <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Privacy & cookies</a></li>
+      </ul>
+      <form action="#" method="GET" class="footer-subscribe">
+        <label class="footer-subscribe__label" for="footer-subscribe">Sign up to Newsletter & Follow us</label>
+        <input type="email" class="footer-subscribe__input" id="footer-subscribe" name="subscribe" placeholder="Enter email">
+        <button class="footer-subscribe__button">sign up</button>
+      </form>
+      <ul class="footer-social-icon__list">
+        <li class="footer-social-icon__item"><a href="#" class="footer-social-icon__link icon-font-fb" title="Follow us in Facebook"></a></li>
+        <li class="footer-social-icon__item"><a href="#" class="footer-social-icon__link icon-font-twitter" title="Follow us in Twitter"></a></li>
+        <li class="footer-social-icon__item"><a href="#" class="footer-social-icon__link icon-font-pinterest" title="Follow us in Pinterest"></a></li>
+        <li class="footer-social-icon__item"><a href="#" class="footer-social-icon__link icon-font-instagram" title="Follow us in Instagram"></a></li>
+        <li class="footer-social-icon__item"><a href="#" class="footer-social-icon__link icon-font-g-plus" title="Google Plus"></a></li>
+        <li class="footer-social-icon__item"><a href="#" class="footer-social-icon__link icon-font-youtube-logo" title="Wath us in Youtube"></a></li>
+      </ul>
+      <div class="copyright">© Created by Slavik. Made with <span class="heart-of-developer">♥</span>.</div>
+    </footer>
+  </div>  
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/magnifick-popup.js"></script>  
+  <script src="js/scripts.js"></script>
+</body>
+</html>
